@@ -4,7 +4,8 @@
 
 ## Overview
 
-The tokenizer was implemented completely from scratch following the specifications provided in the assignment. The pipeline includes preprocessing, vocabulary generation, encoding, and decoding modules.
+A complete NLP toolkit implemented from scratch in Python and PyTorch for Hindi text processing, subword tokenization, word representation learning, and neural language modeling.
+
 
 ---
 
