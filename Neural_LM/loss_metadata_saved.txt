@@ -1,0 +1,230 @@
+NOTE: this is the output of view_metadata.py file whicextracted and displaed the exact saved data from losses and model folders
+
+
+Losses/Meta data:
+
+==========================================================================================
+MODEL FILE: nplm_ctx3_2hid0.pth
+==========================================================================================
+
+[MODEL ARCHITECTURE]
+  vocab_size        : 10000
+  embedding_dim     : 128
+  context_size      : 3
+  hidden_dim        : 512
+  use_second_hidden : False
+
+[HYPERPARAMETERS]
+  lr             : 0.001
+  step_size      : 5
+  gamma          : 0.5
+  corpus_path    : wmt-news-crawl-hi.txt
+  weight_decay   : 0.0002
+  unk_prob       : 0.01
+  epochs_trained : 6
+  batch_size     : 128
+  clip_norm      : 1.0
+
+[TRAINING CONFIG]
+  step_size   : 5
+  gamma       : 0.5
+  corpus_path : wmt-news-crawl-hi.txt
+
+[METRICS]
+  best_val_loss       : 5.711787034006952
+
+[LOSS HISTORY]
+  Total epochs logged : 6
+  Train losses per epoch:
+    Epoch 1 : 6.569772
+    Epoch 2 : 5.830328
+    Epoch 3 : 5.536731
+    Epoch 4 : 5.354964
+    Epoch 5 : 5.229544
+    Epoch 6 : 4.927667
+  Validation losses per epoch:
+    Epoch 1 : 6.185968
+    Epoch 2 : 5.993270
+    Epoch 3 : 5.874098
+    Epoch 4 : 5.805353
+    Epoch 5 : 5.758149
+    Epoch 6 : 5.711787
+
+[MODEL STATE DICT SUMMARY]
+  Number of tensors: 5
+  embeddings.weight                        (10000, 128)
+  hidden_layer.weight                      (512, 384)
+  hidden_layer.bias                        (512,)
+  output_layer.weight                      (10000, 512)
+  output_layer.bias                        (10000,)
+
+==========================================================================================
+MODEL FILE: nplm_ctx5_2hid0.pth
+==========================================================================================
+
+[MODEL ARCHITECTURE]
+  vocab_size        : 10000
+  embedding_dim     : 128
+  context_size      : 5
+  hidden_dim        : 512
+  use_second_hidden : False
+
+[HYPERPARAMETERS]
+  lr             : 0.001
+  step_size      : 5
+  gamma          : 0.5
+  corpus_path    : wmt-news-crawl-hi.txt
+  weight_decay   : 0.0002
+  unk_prob       : 0.01
+  epochs_trained : 6
+  batch_size     : 128
+  clip_norm      : 1.0
+
+[TRAINING CONFIG]
+  step_size   : 5
+  gamma       : 0.5
+  corpus_path : wmt-news-crawl-hi.txt
+
+[METRICS]
+  best_val_loss       : 5.75606269743836
+
+[LOSS HISTORY]
+  Total epochs logged : 6
+  Train losses per epoch:
+    Epoch 1 : 6.584681
+    Epoch 2 : 5.822822
+    Epoch 3 : 5.511463
+    Epoch 4 : 5.307802
+    Epoch 5 : 5.141641
+    Epoch 6 : 4.798015
+  Validation losses per epoch:
+    Epoch 1 : 6.223919
+    Epoch 2 : 6.029338
+    Epoch 3 : 5.911279
+    Epoch 4 : 5.836635
+    Epoch 5 : 5.798808
+    Epoch 6 : 5.756063
+
+[MODEL STATE DICT SUMMARY]
+  Number of tensors: 5
+  embeddings.weight                        (10000, 128)
+  hidden_layer.weight                      (512, 640)
+  hidden_layer.bias                        (512,)
+  output_layer.weight                      (10000, 512)
+  output_layer.bias                        (10000,)
+
+==========================================================================================
+MODEL FILE: nplm_ctx3_2hid1.pth
+==========================================================================================
+
+[MODEL ARCHITECTURE]
+  vocab_size        : 10000
+  embedding_dim     : 128
+  context_size      : 3
+  hidden_dim        : 512
+  use_second_hidden : True
+
+[HYPERPARAMETERS]
+  lr             : 0.001
+  step_size      : 5
+  gamma          : 0.5
+  corpus_path    : wmt-news-crawl-hi.txt
+  weight_decay   : 0.0002
+  unk_prob       : 0.01
+  epochs_trained : 6
+  batch_size     : 128
+  clip_norm      : 1.0
+
+[TRAINING CONFIG]
+  step_size   : 5
+  gamma       : 0.5
+  corpus_path : wmt-news-crawl-hi.txt
+
+[METRICS]
+  best_val_loss       : 5.721089145512257
+
+[LOSS HISTORY]
+  Total epochs logged : 6
+  Train losses per epoch:
+    Epoch 1 : 6.536388
+    Epoch 2 : 5.950919
+    Epoch 3 : 5.626338
+    Epoch 4 : 5.393154
+    Epoch 5 : 5.205773
+    Epoch 6 : 4.772167
+  Validation losses per epoch:
+    Epoch 1 : 6.229779
+    Epoch 2 : 6.033304
+    Epoch 3 : 5.891331
+    Epoch 4 : 5.816080
+    Epoch 5 : 5.778435
+    Epoch 6 : 5.721089
+
+[MODEL STATE DICT SUMMARY]
+  Number of tensors: 7
+  embeddings.weight                        (10000, 128)
+  hidden_layer.weight                      (512, 384)
+  hidden_layer.bias                        (512,)
+  fc2.weight                               (512, 512)
+  fc2.bias                                 (512,)
+  output_layer.weight                      (10000, 512)
+  output_layer.bias                        (10000,)
+
+==========================================================================================
+MODEL FILE: nplm_ctx5_2hid1.pth
+==========================================================================================
+
+[MODEL ARCHITECTURE]
+  vocab_size        : 10000
+  embedding_dim     : 128
+  context_size      : 5
+  hidden_dim        : 512
+  use_second_hidden : True
+
+[HYPERPARAMETERS]
+  lr             : 0.001
+  step_size      : 5
+  gamma          : 0.5
+  corpus_path    : wmt-news-crawl-hi.txt
+  weight_decay   : 0.0002
+  unk_prob       : 0.01
+  epochs_trained : 6
+  batch_size     : 128
+  clip_norm      : 1.0
+
+[TRAINING CONFIG]
+  step_size   : 5
+  gamma       : 0.5
+  corpus_path : wmt-news-crawl-hi.txt
+
+[METRICS]
+  best_val_loss       : 5.740026756397729
+
+[LOSS HISTORY]
+  Total epochs logged : 6
+  Train losses per epoch:
+    Epoch 1 : 6.570161
+    Epoch 2 : 5.992763
+    Epoch 3 : 5.662719
+    Epoch 4 : 5.405867
+    Epoch 5 : 5.186252
+    Epoch 6 : 4.716969
+  Validation losses per epoch:
+    Epoch 1 : 6.281276
+    Epoch 2 : 6.108060
+    Epoch 3 : 5.954505
+    Epoch 4 : 5.849554
+    Epoch 5 : 5.821631
+    Epoch 6 : 5.740027
+
+[MODEL STATE DICT SUMMARY]
+  Number of tensors: 7
+  embeddings.weight                        (10000, 128)
+  hidden_layer.weight                      (512, 640)
+  hidden_layer.bias                        (512,)
+  fc2.weight                               (512, 512)
+  fc2.bias                                 (512,)
+  output_layer.weight                      (10000, 512)
+  output_layer.bias                        (10000,)
+
+Full metadata + loss inspection complete.
